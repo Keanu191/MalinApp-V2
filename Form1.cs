@@ -1,6 +1,6 @@
 ﻿/*
  * 30074191 / Keanu Farro
- * 8/10/2024
+ * 8/10/2024 - 22/10/2024 wow long time
  * Astronomical processing application
  * MalinAT2
  */
