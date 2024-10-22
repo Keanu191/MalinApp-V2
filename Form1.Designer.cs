@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtBoxObserved = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.inputStarDistance = new System.Windows.Forms.TextBox();
             this.txtBoxEventHorizon = new System.Windows.Forms.TextBox();
             this.inputTempInKelvin = new System.Windows.Forms.TextBox();
             this.label_TempInKelvin = new System.Windows.Forms.Label();
@@ -79,10 +79,10 @@
             resources.ApplyResources(this.txtBoxObserved, "txtBoxObserved");
             this.txtBoxObserved.Name = "txtBoxObserved";
             // 
-            // textBox2
+            // inputStarDistance
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.inputStarDistance, "inputStarDistance");
+            this.inputStarDistance.Name = "inputStarDistance";
             // 
             // txtBoxEventHorizon
             // 
@@ -191,40 +191,39 @@
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripComboBox1,
             this.toolStripMenuItem1});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // toolStripComboBox1
             // 
-            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
             this.toolStripComboBox1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.frenchToolStripMenuItem,
             this.germanToolStripMenuItem});
             this.toolStripComboBox1.Name = "toolStripComboBox1";
+            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
             // 
             // englishToolStripMenuItem
             // 
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             // 
             // frenchToolStripMenuItem
             // 
-            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
             this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
+            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
             // 
             // germanToolStripMenuItem
             // 
-            resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
             this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
+            resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
             // 
             // toolStripMenuItem1
             // 
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemEnglish,
             this.menuItemFrench,
@@ -234,47 +233,48 @@
             this.chooseColorToolStripMenuItem,
             this.chooseFontToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             // 
             // menuItemEnglish
             // 
-            resources.ApplyResources(this.menuItemEnglish, "menuItemEnglish");
             this.menuItemEnglish.Name = "menuItemEnglish";
+            resources.ApplyResources(this.menuItemEnglish, "menuItemEnglish");
             this.menuItemEnglish.Click += new System.EventHandler(this.menuItemEnglish_Click);
             // 
             // menuItemFrench
             // 
-            resources.ApplyResources(this.menuItemFrench, "menuItemFrench");
             this.menuItemFrench.Name = "menuItemFrench";
+            resources.ApplyResources(this.menuItemFrench, "menuItemFrench");
             this.menuItemFrench.Click += new System.EventHandler(this.menuItemFrench_Click);
             // 
             // menuItemGerman
             // 
-            resources.ApplyResources(this.menuItemGerman, "menuItemGerman");
             this.menuItemGerman.Name = "menuItemGerman";
+            resources.ApplyResources(this.menuItemGerman, "menuItemGerman");
             this.menuItemGerman.Click += new System.EventHandler(this.menuItemGerman_Click);
             // 
             // darkModeToolStripMenuItem
             // 
-            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
             this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
+            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
             this.darkModeToolStripMenuItem.Click += new System.EventHandler(this.darkModeToolStripMenuItem_Click);
             // 
             // defaultUIStyleToolStripMenuItem
             // 
-            resources.ApplyResources(this.defaultUIStyleToolStripMenuItem, "defaultUIStyleToolStripMenuItem");
             this.defaultUIStyleToolStripMenuItem.Name = "defaultUIStyleToolStripMenuItem";
+            resources.ApplyResources(this.defaultUIStyleToolStripMenuItem, "defaultUIStyleToolStripMenuItem");
             this.defaultUIStyleToolStripMenuItem.Click += new System.EventHandler(this.defaultUIStyleToolStripMenuItem_Click);
             // 
             // chooseColorToolStripMenuItem
             // 
-            resources.ApplyResources(this.chooseColorToolStripMenuItem, "chooseColorToolStripMenuItem");
             this.chooseColorToolStripMenuItem.Name = "chooseColorToolStripMenuItem";
+            resources.ApplyResources(this.chooseColorToolStripMenuItem, "chooseColorToolStripMenuItem");
             this.chooseColorToolStripMenuItem.Click += new System.EventHandler(this.chooseColorToolStripMenuItem_Click);
             // 
             // chooseFontToolStripMenuItem
             // 
-            resources.ApplyResources(this.chooseFontToolStripMenuItem, "chooseFontToolStripMenuItem");
             this.chooseFontToolStripMenuItem.Name = "chooseFontToolStripMenuItem";
+            resources.ApplyResources(this.chooseFontToolStripMenuItem, "chooseFontToolStripMenuItem");
             this.chooseFontToolStripMenuItem.Click += new System.EventHandler(this.chooseFontToolStripMenuItem_Click);
             // 
             // btnConnect
@@ -286,22 +286,22 @@
             // 
             // statusStrip1
             // 
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Name = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
-            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             // 
             // dataGridView1
             // 
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
             // 
             // Column1
@@ -354,7 +354,7 @@
             this.Controls.Add(this.label_TempInKelvin);
             this.Controls.Add(this.inputTempInKelvin);
             this.Controls.Add(this.txtBoxEventHorizon);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.inputStarDistance);
             this.Controls.Add(this.txtBoxObserved);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -373,7 +373,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtBoxObserved;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox inputStarDistance;
         private System.Windows.Forms.TextBox txtBoxEventHorizon;
         private System.Windows.Forms.TextBox inputTempInKelvin;
         private System.Windows.Forms.Label label_TempInKelvin;

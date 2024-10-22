@@ -196,7 +196,7 @@ namespace MalinAstroAPP
                 try
                 {
                     // Try to parse the values entered in the input textboxes as doubles to calculate the selected equation, if unsuccessful return error message
-                    if (double.TryParse(inputTempInKelvin.Text, out arcSecondsInput))
+                    if (double.TryParse(inputStarDistance.Text, out arcSecondsInput))
                     {
                         // Call the server to calculate the event horizon from the double entered in the textbox from the user
                         double arcSecondsCalculation = channel.calculateStarDistance(arcSecondsInput);
