@@ -49,14 +49,10 @@
             this.btnDefaultMode = new System.Windows.Forms.Button();
             this.btnDarkMode = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemEnglish = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemFrench = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemGerman = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultUIStyleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chooseColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -193,34 +189,30 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripComboBox1,
             this.toolStripMenuItem1});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
-            // toolStripComboBox1
+            // menuItemEnglish
             // 
-            this.toolStripComboBox1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.englishToolStripMenuItem,
-            this.frenchToolStripMenuItem,
-            this.germanToolStripMenuItem});
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
+            this.menuItemEnglish.Image = global::MalinAstroAPP.Properties.Resources.Flag_of_US;
+            this.menuItemEnglish.Name = "menuItemEnglish";
+            resources.ApplyResources(this.menuItemEnglish, "menuItemEnglish");
+            this.menuItemEnglish.Click += new System.EventHandler(this.menuItemEnglish_Click);
             // 
-            // englishToolStripMenuItem
+            // menuItemFrench
             // 
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.menuItemFrench.Image = global::MalinAstroAPP.Properties.Resources.Flag_of_France;
+            this.menuItemFrench.Name = "menuItemFrench";
+            resources.ApplyResources(this.menuItemFrench, "menuItemFrench");
+            this.menuItemFrench.Click += new System.EventHandler(this.menuItemFrench_Click);
             // 
-            // frenchToolStripMenuItem
+            // menuItemGerman
             // 
-            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
-            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
-            // 
-            // germanToolStripMenuItem
-            // 
-            this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
-            resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
+            this.menuItemGerman.Image = global::MalinAstroAPP.Properties.Resources.Flag_of_Germany;
+            this.menuItemGerman.Name = "menuItemGerman";
+            resources.ApplyResources(this.menuItemGerman, "menuItemGerman");
+            this.menuItemGerman.Click += new System.EventHandler(this.menuItemGerman_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -234,24 +226,6 @@
             this.chooseFontToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            // 
-            // menuItemEnglish
-            // 
-            this.menuItemEnglish.Name = "menuItemEnglish";
-            resources.ApplyResources(this.menuItemEnglish, "menuItemEnglish");
-            this.menuItemEnglish.Click += new System.EventHandler(this.menuItemEnglish_Click);
-            // 
-            // menuItemFrench
-            // 
-            this.menuItemFrench.Name = "menuItemFrench";
-            resources.ApplyResources(this.menuItemFrench, "menuItemFrench");
-            this.menuItemFrench.Click += new System.EventHandler(this.menuItemFrench_Click);
-            // 
-            // menuItemGerman
-            // 
-            this.menuItemGerman.Name = "menuItemGerman";
-            resources.ApplyResources(this.menuItemGerman, "menuItemGerman");
-            this.menuItemGerman.Click += new System.EventHandler(this.menuItemGerman_Click);
             // 
             // darkModeToolStripMenuItem
             // 
@@ -392,10 +366,6 @@
         private System.Windows.Forms.Button btnDefaultMode;
         private System.Windows.Forms.Button btnDarkMode;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripComboBox1;
-        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem frenchToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem germanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem menuItemEnglish;
         private System.Windows.Forms.ToolStripMenuItem menuItemFrench;

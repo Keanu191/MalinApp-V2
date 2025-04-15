@@ -119,120 +119,129 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label_TempInKelvin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 13</value>
+    <value>114, 13</value>
   </data>
   <data name="label_TempInKelvin.Text" xml:space="preserve">
-    <value>Temperatur in Kelvin</value>
-  </data>
-  <data name="label_StarVelocity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 43</value>
+    <value>Température en Kelvin</value>
   </data>
   <data name="label_StarVelocity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 13</value>
+    <value>94, 13</value>
   </data>
   <data name="label_StarVelocity.Text" xml:space="preserve">
-    <value>Sternengeschwindigkeit</value>
+    <value>Vitesse des étoiles</value>
   </data>
   <data name="label_StarDistance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 13</value>
+    <value>102, 13</value>
   </data>
   <data name="label_StarDistance.Text" xml:space="preserve">
-    <value>Sternentfernung</value>
+    <value>Distance des étoiles</value>
   </data>
   <data name="label_EventHorizon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
+    <value>124, 13</value>
   </data>
   <data name="label_EventHorizon.Text" xml:space="preserve">
-    <value>Ereignishorizont</value>
+    <value>Horizon des événements</value>
   </data>
   <data name="btnCalculateStarVelocity.Text" xml:space="preserve">
-    <value>Berechnen</value>
+    <value>Calculs</value>
   </data>
   <data name="btnCalculateStarDistance.Text" xml:space="preserve">
-    <value>Berechnen</value>
+    <value>Calculs</value>
   </data>
   <data name="btnTemperatureInKelvin.Text" xml:space="preserve">
-    <value>Berechnen</value>
+    <value>Calculs</value>
   </data>
   <data name="btnCalculateEventHorizon.Text" xml:space="preserve">
-    <value>Berechnen</value>
+    <value>Calculs</value>
   </data>
   <data name="btnEnglish.Text" xml:space="preserve">
-    <value>Englisch</value>
+    <value>Anglais</value>
   </data>
   <data name="btnFrench.Text" xml:space="preserve">
-    <value>Französisch</value>
+    <value>Français</value>
   </data>
   <data name="btnGerman.Text" xml:space="preserve">
-    <value>Deutsch</value>
+    <value>Allemand</value>
   </data>
   <data name="btnDialog.Text" xml:space="preserve">
-    <value>Wählen Sie Farbe</value>
+    <value>Choisissez la couleur</value>
   </data>
   <data name="btnDefaultMode.Text" xml:space="preserve">
-    <value>Standardstil</value>
+    <value>Style par défaut</value>
   </data>
   <data name="btnDarkMode.Text" xml:space="preserve">
-    <value>Dunkler Modus</value>
+    <value>Mode sombre</value>
   </data>
   <data name="menuItemEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="menuItemEnglish.Text" xml:space="preserve">
-    <value>Englisch</value>
+    <value>Anglais</value>
   </data>
   <data name="menuItemFrench.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="menuItemFrench.Text" xml:space="preserve">
-    <value>Französisch</value>
+    <value>Français</value>
   </data>
   <data name="menuItemGerman.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="menuItemGerman.Text" xml:space="preserve">
-    <value>Deutsch</value>
+    <value>Allemand</value>
   </data>
   <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dunkler Modus</value>
+    <value>Mode sombre</value>
   </data>
   <data name="defaultUIStyleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
+  </data>
+  <data name="defaultUIStyleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Interface utilisateur/style par défaut</value>
   </data>
   <data name="chooseColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="chooseColorToolStripMenuItem.Text" xml:space="preserve">
-    <value>Wählen Sie Farbe</value>
+    <value>Choisissez la couleur</value>
   </data>
   <data name="chooseFontToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="chooseFontToolStripMenuItem.Text" xml:space="preserve">
-    <value>Wählen Sie eine Schriftart</value>
+    <value>Choisir la police</value>
+  </data>
+  <data name="ConnectionSuccess" xml:space="preserve">
+    <value>Connexion réussie</value>
+  </data>
+  <data name="ErrorCatch" xml:space="preserve">
+    <value>Erreur de connexion</value>
   </data>
   <data name="btnConnect.Text" xml:space="preserve">
-    <value>Testverbindung</value>
+    <value>Tester la connexion</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 24</value>
+    <value>210, 24</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 13</value>
+    <value>47, 13</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Beobachtete Wellenlänge</value>
+    <value>Observé</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 24</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 13</value>
+    <value>38, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Ruhewellenlänge</value>
+    <value>Repos</value>
   </data>
   <data name="btnFont.Text" xml:space="preserve">
-    <value>Wählen Sie eine Schriftart</value>
+    <value>Choisir la police</value>
   </data>
 </root>
